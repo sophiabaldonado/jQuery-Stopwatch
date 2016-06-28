@@ -22,3 +22,8 @@ body {
   font-family: VT323;
   font-size: 3rem;
 }
+
+#stopWatch button:hover,
+#stopWatch button:active {
+  background: rgb(253, 0, 254);
+}
