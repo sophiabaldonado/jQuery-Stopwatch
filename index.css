@@ -2,28 +2,36 @@
 html { font: normal normal 16px/1.2 VT323, courier, monospace; }
 
 body {
-  color: rgb(0, 253, 254);
+  color: #a34dfd;
   background-color: #000;
   margin: 0;
 }
 
-#stopWatch {
+div.stopWatch {
   font-size: 6rem;
   top: 0; left: 0; right: 0; bottom: 0;
-  position: absolute;
+  width: 65%;
   text-align: center;
-  margin-top: 30vh;
+  float: left;
+  margin-top: 10vh;
 }
 
-#stopWatch button {
+.stopWatch button {
   background: transparent;
-  border: 1px solid rgb(0, 253, 254);
-  color: rgb(0, 253, 254);
+  border: 1px solid #a34dfd;
+  color: #a34dfd;
   font-family: VT323;
   font-size: 3rem;
 }
 
-#stopWatch button:hover,
-#stopWatch button:active {
-  background: rgb(253, 0, 254);
+.stopWatch button:hover,
+.stopWatch button:active {
+  background: #bacbfe;
+}
+
+.right-cat {
+  clear: both;
+  float: right;
+  width: 35%;
+  margin-top: 20vh;
 }
