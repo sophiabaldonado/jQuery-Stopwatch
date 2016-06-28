@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+html { font: normal normal 16px/1.2 VT323, courier, monospace; }
+
+body {
+  color: rgb(0, 253, 254);
+  background-color: #000;
+  margin: 0;
+}
+
+#stopWatch {
+  font-size: 6rem;
+  top: 0; left: 0; right: 0; bottom: 0;
+  position: absolute;
+  text-align: center;
+  margin-top: 30vh;
+}
+
+#stopWatch button {
+  background: transparent;
+  border: 1px solid rgb(0, 253, 254);
+  color: rgb(0, 253, 254);
+  font-family: VT323;
+  font-size: 3rem;
+}
